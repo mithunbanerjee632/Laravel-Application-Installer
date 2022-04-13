@@ -20,3 +20,5 @@ Route::get('/', function () {
 
 Route::get('/makeMigration',[DemoController::class,'MakeMigration']);
 Route::get('/runMigration',[DemoController::class,'RunMigration']);
+
+Route::get('/appCacheClear',[DemoController::class,'AppCacheClear']);
