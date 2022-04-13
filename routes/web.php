@@ -19,4 +19,4 @@ Route::get('/', function () {
 });
 
 Route::get('/makeMigration',[DemoController::class,'MakeMigration']);
-Route::get('/makeMigration',[DemoController::class,'RunMigration']);
+Route::get('/runMigration',[DemoController::class,'RunMigration']);
